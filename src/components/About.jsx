@@ -1,12 +1,12 @@
 import React from 'react'
-
+import profileImg from '../assets/profile.png'
 function About() {
   return (
     <section id="#about" className="min-h-screen flex flex-col md:flex-row items-center justify-center px-6 md:px-24 pt-0 py-20 scroll-mt-24">
 
       <div className="md:w-1/3 flex justify-center mb-8 md:mb-0">
         <img
-          src="src\assets\profile.png" 
+          src={profileImg}
           alt="Anusha Chandeep"
           className="rounded-full w-48 h-48 object-cover border-4 border-indigo-400"/>
       </div>

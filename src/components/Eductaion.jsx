@@ -1,5 +1,6 @@
 import React from 'react'
-
+import sliit from '../assets/SLIIT.png'
+import mpc from '../assets/mpc.png'
 function Eductaion() {
   const educationList = [
     {
@@ -7,14 +8,14 @@ function Eductaion() {
       institution :  "Sri Lanka Institute of Information Technology (SLIIT)",
       period : "2021-2025",
       gpa : "GPA: 3.2/4.0",
-      logo : "src/assets/SLIIT.png"
+      logo : sliit
     },
     {
       degree : "GCE A/L",
       institution :  "President College Minuwangoda",
       period : "2012-2018",
       gpa : "Science Stream",
-      logo : "src/assets/mpc.png"
+      logo : mpc
     }
   ]
   return (

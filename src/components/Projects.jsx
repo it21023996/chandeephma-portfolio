@@ -1,6 +1,30 @@
 import React from 'react'
 import { useState } from 'react'
 import ProjectModal from './ProjectModal'
+import m1 from '../assets/easybuy-home.png'
+import m2 from '../assets/easybuy-cart.png'
+import m3 from '../assets/easybuy-login.png'
+import m4 from '../assets/easybuy-order-status.png'
+import m5 from '../assets/easybuy-addproduct.png'
+import m6 from '../assets/easybuy-products.png'
+import m7 from '../assets/easybuy-profile.png'
+import m8 from '../assets/easybuy-user-order.png'
+import m9 from '../assets/easybuy-user-update.png'
+
+import l1 from '../assets/leave-front.png'
+import l2 from '../assets/leave-reg.png'
+import l3 from '../assets/leave-request-list.png'
+import l4 from '../assets/leave-requsets.png'
+import l5 from '../assets/leave-summary.png'
+import l6 from '../assets/leave-type.png'
+import l7 from '../assets/leave-add-request.png'
+import l8 from '../assets/leave-balance-list.png'
+import l9 from '../assets/leave-employee-list.png'
+
+import m from '../assets/logo-easybuy.png'
+import l from '../assets/logo-leave.png'
+
+
 function Projects() {
     
     const projects = [
@@ -14,7 +38,7 @@ function Projects() {
             tech : [
                 "React","Springboot","Jwt","SQL","Authentication"
             ],
-            logo : "src/assets/logo-leave.png",
+            logo : l,
             features :[
                 "🔐 JWT Authentication & Role-Based Acces",
                 "📝 Leave request submission",
@@ -23,18 +47,7 @@ function Projects() {
                 "👥 Employee and admin dashboards",
                 "📱 Responsive React UI"
             ],
-            image : [
-                "src/assets/leave-home.png",
-                "src/assets/leave-front.png",
-                "src/assets/leave-reg.png",
-                "src/assets/leave-request-list.png",
-                "src/assets/leave-requsets.png",
-                "src/assets/leave-summary.png",
-                "src/assets/leave-type.png",
-                "src/assets/leave-add-request.png",
-                "src/assets/leave-balance-list.png",
-                "src/assets/leave-employee-list.png"
-            ]
+            image : [l1,l2,l3,l4,l5,l6,l7,l8,l9]
         },
         {
             id : "easybuy",
@@ -46,7 +59,7 @@ function Projects() {
             tech : [
                 "React","Springboot","Jwt","SQL","Authentication"
             ],
-            logo : "src/assets/logo-easybuy.png",
+            logo : m,
             features :[
                 "🔐 JWT Authentication & Authorization",
                 "🛍️ Product browsing and search",
@@ -55,17 +68,7 @@ function Projects() {
                 "📱 Responsive React UI",
                 "⚙️ RESTful API with Spring Boot"
             ],
-            image : [
-                "src/assets/easybuy-home.png",
-                "src/assets/easybuy-cart.png",
-                "src/assets/easybuy-login.png",
-                "src/assets/easybuy-order-status.png",
-                "src/assets/easybuy-addproduct.png",
-                "src/assets/easybuy-products.png",
-                "src/assets/easybuy-profile.png",
-                "src/assets/easybuy-user-order.png",
-                "src/assets/easybuy-user-update.png"
-            ]
+            image : [m1,m2,m3,m4,m5,m6,m7,m8,m9]
         }
     ]
 

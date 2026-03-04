@@ -1,8 +1,8 @@
 import React from 'react'
-
+import wij from '../assets/wij.jpg'
 function Experience() {
     const exp = {
-        image : "src/assets/wij.jpg",
+        image : wij,
         company : "Wijeya Newspapers Ltd. Colombo",
         role : "Business Intelligence Analyst (Intern)",
         duration : "04/2024 – 12/2024",
