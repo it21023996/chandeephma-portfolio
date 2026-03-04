@@ -22,6 +22,8 @@ function NavBar() {
           <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-indigo-400 rounded-full animate-pulse"></span></a>
            <a href="#education" className="relative text-white hover:text-indigo-400 transition-colors group">Education
           <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-indigo-400 rounded-full animate-pulse"></span></a>
+          <a href="#experience" className="relative text-white hover:text-indigo-400 transition-colors group">Experience
+          <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-indigo-400 rounded-full animate-pulse"></span></a>
           <a href="#contact" className="relative text-white hover:text-indigo-400 transition-colors group">Contact
           <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-indigo-400 rounded-full animate-pulse"></span></a>
         </div>

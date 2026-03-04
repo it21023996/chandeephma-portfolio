@@ -8,12 +8,13 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Projects from './components/Projects'
 import Eductaion from './components/Eductaion'
+import Experience from './components/Experience'
 function App() {
   return (
 
-    <div className="relative min-h-screen bg-slate-900">
+    <div className="relative min-h-screen bg-slate-900 overflow-x-hidden">
   
-  <div className="absolute inset-0 opacity-50">
+  <div className="absolute inset-0 opacity-50 overflow-hidden">
   <div
     className="absolute top-[-20%] left-[-20%] w-[140%] h-[140%]
     bg-[radial-gradient(circle_at_50%_50%,rgba(56,189,248,0.35),transparent_60%),
@@ -24,7 +25,7 @@ function App() {
 </div>
  
 
-  <div className="relative z-10 text-white p-10 pt-24">
+  <div className="relative z-10 text-white">
     <Spotlight/>
     <NavBar/>
     <section id="home" className="scroll-mt-24"><Home/></section>
@@ -32,7 +33,8 @@ function App() {
     <section id="projects" className="scroll-mt-24"><Projects/></section>
     <section id="skills" className="scroll-mt-24"><Skills/></section>
     <section id="education" className="scroll-mt-24"><Eductaion/></section>
-    <section id="contact" className="scroll-mt-24"><Contact/></section>
+    <section id="experience" className="scroll-mt-24"><Experience/></section>
+    <section id="contact" className="scroll-mt-20"><Contact/></section>
     <Footer/>
   </div>
 

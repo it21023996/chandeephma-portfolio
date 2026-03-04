@@ -3,7 +3,7 @@ import React from 'react'
 function Eductaion() {
   const educationList = [
     {
-      degree : "BSc (Hons) in Information Technology - Data Science",
+      degree : "BSc (Hons) in Information Technology specializing in Data Science",
       institution :  "Sri Lanka Institute of Information Technology (SLIIT)",
       period : "2021-2025",
       gpa : "GPA: 3.2/4.0",
@@ -19,7 +19,7 @@ function Eductaion() {
   ]
   return (
     <section id="education" className="pt-0 pb-20 bg-slate-900 text-white scroll-mt-32">
-      <div className="max-w-5xl mx-auto px-6">
+      <div className="max-w-6xl mx-auto px-6 flex flex-col justify-center min-h-[80vh]">
          <h2 className="text-3xl font-bold text-white mb-10">Education</h2>
       <div className="relative space-y-6">
         <div className="absolute left-6 top-0 bottom-0 w-1 bg-indigo-500/40 rounded-full hidden md:block"> </div>
@@ -40,7 +40,7 @@ function Eductaion() {
       
       </div>
       <div className="flex justify-end mt-12">
-      <a href='#home' className="px-6 py-3 bg-indigo-500 text-white font-semibold rounded-lg hover:bg-indigo-600 transition-colors">Show My Experience</a>
+      <a href='#experience' className="px-6 py-3 bg-indigo-500 text-white font-semibold rounded-lg hover:bg-indigo-600 transition-colors">Show My Experience</a>
       </div>
       </div>
     </section>

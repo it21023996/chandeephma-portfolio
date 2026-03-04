@@ -14,8 +14,8 @@ function About() {
       <div className="md:w-2/3 md:pl-12 space-y-4 text-white">
         <h2 className="text-3xl md:text-4xl font-bold mb-2">About Me</h2>
         <p className="text-lg md:text-xl text-white/80">
-         Hi, I’m Anusha Chandeep, a passionate <span className="text-indigo-400 font-semibold">Full-Stack Developer</span>
-         based in Sri Lanka. I specialize in building modern web applications using <span className="text-indigo-400 font-semibold">React</span> and <span className="text-indigo-400 font-semibold">Spring Boot</span>.
+         Hi, I’m Anusha Chandeep, a passionate <span className="text-indigo-400 font-semibold">Full-Stack Developer </span>
+          based in Sri Lanka. I specialize in building modern web applications using <span className="text-indigo-400 font-semibold">React</span> and <span className="text-indigo-400 font-semibold">Spring Boot</span>.
          </p>
          <p className="text-white/70 text-lg md:text-xl">
           I love crafting responsive, user-friendly, and performant applications that solve real-world problems. I’m always learning new technologies and improving my coding skills.
