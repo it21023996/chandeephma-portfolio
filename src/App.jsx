@@ -9,7 +9,7 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Projects from './components/Projects'
 import Eductaion from './components/Eductaion'
-import Experience from './components/Experience'
+import Experience from './components/experience'
 function App() {
   return (
 
