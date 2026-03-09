@@ -43,7 +43,7 @@ function Contact() {
             </div>
             <div className="bg-slate-800/80 backdrop-blur p-6 rounded-2xl text-center hover:shadow-indigo-500/30 transition">
             <h3 className="text-indigo-400 font-semibold mb-2">Location</h3>
-            <p className="text-gray-300 text-sm">Sri Lanka</p>
+            <p className="text-gray-300 text-sm">Gamapaha, Sri Lanka</p>
             </div>
           </div>
 
